@@ -16,7 +16,7 @@ log4js.configure({
   categories: {
     default: {
       appenders: ['toConsole', 'toFile'],
-      level: 'info',
+      level: 'debug',
     },
   },
 });
