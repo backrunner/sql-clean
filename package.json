@@ -1,0 +1,17 @@
+{
+  "name": "sql-clean",
+  "version": "1.0.0",
+  "description": "A simple script to clean sql table",
+  "main": "index.js",
+  "author": "BackRunner",
+  "license": "MIT",
+  "scripts": {
+    "start": "ts-node-script ./index.js"
+  },
+  "dependencies": {
+    "log4js": "^6.3.0",
+    "mysql2": "^2.2.5",
+    "node-cron": "^2.0.3",
+    "ts-node": "^9.0.0"
+  }
+}
