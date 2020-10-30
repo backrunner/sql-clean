@@ -28,7 +28,7 @@ export default {
       mode: 'delete', // or drop
     }
   ],
-  maxPersistDays: 7,
+  maxPersistDays: 7,  // max day data peresisted.
   cron: '*0 0 * * *',  // clean at 0:00 every day
 };
 ```
