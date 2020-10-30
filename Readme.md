@@ -24,12 +24,12 @@ export default {
   tables: [
     {
       name: 'log',
-      timeCol: 'createTime',
+      timeCol: 'createTime',  // DATETIME type col
       mode: 'delete', // or drop
     }
   ],
   maxPersistDays: 7,
-  cron: '* 0 * * *',  // clean at 0:00 every day
+  cron: '*0 0 * * *',  // clean at 0:00 every day
 };
 ```
 
