@@ -10,6 +10,12 @@ Clone this repo and enter into the directory.
 git clone -b main https://github.com/backrunner/sql-clean.git --depth 1
 ```
 
+Install dependencies.
+
+```bash
+npm install
+```
+
 Create a file named "config.js" in the directory.
 
 Template:
